@@ -5,48 +5,73 @@
 <style>
 body{
 
-background: url(images/tesla.jpeg);
+background: url(2018-20-02-23-22-26.jpeg);
 text-align: center;
-margin-top: 190px;
+margin-top: 230px;
 background-position: center;
 background-size: cover;
 color: white;
 background-repeat: no-repeat;
 transition: all .6s;
+font-family: 'Cinzel', serif;
 }
 input{
-margin: 10px;
-padding: 10px;
-}
-input[type="Password"]
-{
-margin-right: 175px;
+margin: 12px;
+padding: 13px;
 }
 input
 {
+  width: 24%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #3F7FBF;
+font-family: 'Cinzel', serif;
 border-radius: 4px;
-margin-right: 150px;
+margin-right: 80px;
+margin-top: 30px;
 }
-button
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+	margin-right: 84px;
+	border-radius: 5px;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  margin-top: 10px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+
+.button4:hover {background-color:#299527;}
+span
 {
-size: 37px;
-padding: 8px;
-font-size: 16px;
-border-radius: 4px;
-width: 85px;
-margin-right: 120px;
-margin-top: 10px;
+margin-right: 90px;
+font-size: 34px;
+font-family:'Fredoka One', cursive;
 }
-span{
-margin-right: 130px;
-font-size: 27px;
-font-family: verdana;
+.placeholder
+{
+font-size:22px;
+}
+input[type="login"]{
+background: rgba(0,0,0,0.4);
 }
 </style>
 <body>
 <span>Welcome! you may login</span><br>
-<b>Email:</b><input type="login" placeholder="enter your email" size="35" ><br>
-<b>Password:</b><input type="password" placeholder="enter your password" size="35"><br>
-<button width="20" >Login</button></div>
+<input type="login" placeholder="Enter your name..." class="placeholder" size="35" ><br>
+<button class="button button4">Login</button></div>
 </body>
 </html>
